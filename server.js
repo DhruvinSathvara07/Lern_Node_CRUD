@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/menu", menuRoutes);
-app.use("/person", personRoutes);
+app.use("/", personRoutes);
 
 app.listen(5000)
 
