@@ -4,13 +4,8 @@ const connectDB = require("./Database/db");
 const menuRoutes = require("./Routes/menuRoutes");
 const personRoutes = require("./Routes/personRoutes");
 require("dotenv").config();
-// const passport = require("passport");
-// const localstarategy = require("passport-local").Strategy;
-// const Person = require("./Model/person");
-
 
 // Middleware
-
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
